@@ -2,7 +2,7 @@
 
 # GO语言搭建多人游戏服务器
 
-本项目是基于WebSocket协议开发的**多人游戏服务器**，适用于多人实时游戏等。
+本项目是基于TCP协议开发的**多人游戏服务器**，适用于多人实时游戏等。
 
 <!-- PROJECT SHIELDS -->
 
@@ -17,7 +17,7 @@
 <br />
 
 <p align="center">
-  <a href="https://github.com/zk63265742/game-server/">
+  <a href="https://github.com/langwudong/tcp-game-server/">
     <img src="images/img.jpg" alt="img" width="120" height="120">
   </a>
 
@@ -25,14 +25,14 @@
   <p align="center">
     欢迎测试、学习以及交流
     <br />
-    <a href="https://github.com/zk63265742/game-server"><strong>探索本项目的文档 »</strong></a>
+    <a href="https://github.com/langwudong/tcp-game-server"><strong>探索本项目的文档 »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/zk63265742/game-server">查看Demo</a>
+    <a href="https://github.com/langwudong/tcp-game-server">查看Demo</a>
     ·
-    <a href="https://github.com/zk63265742/game-server/issues">报告Bug</a>
+    <a href="https://github.com/langwudong/tcp-game-server/issues">报告Bug</a>
     ·
-    <a href="https://github.com/zk63265742/game-server/issues">提出新特性</a>
+    <a href="https://github.com/langwudong/tcp-game-server/issues">提出新特性</a>
   </p>
 
 </p>
@@ -59,7 +59,7 @@
 
 克隆本仓库
 ```sh
-git clone https://github.com/zk63265742/game-server.git
+git clone https://github.com/langwudong/tcp-game-server.git
 ```
 
 ### 文件目录说明
@@ -69,17 +69,14 @@ eg:
 filetree 
 ├─.idea
 ├─bin
-├─images
 ├─pkg
 └─src
-    ├─logrus
+    ├─assets
+    ├─data
     ├─logs
     ├─main
-    ├─message
     ├─mysql
-    ├─room
-    ├─upgrader
-    └─user
+    └─network
 
 ```
 
@@ -101,7 +98,7 @@ filetree
 
 ### 贡献者
 
-- [朗 吾 東](https://github.com/zk63265742)
+- [朗 吾 東](https://github.com/langwudong)
 
 #### 如何参与开源项目
 
@@ -122,7 +119,7 @@ filetree
 
 ### 作者
 
-63265742@qq.com
+langwudong@yeah.net
 
 知乎: [朗 吾 東](https://www.zhihu.com/people/---60-9-44)  &ensp; qq: 63265742
 
@@ -140,16 +137,16 @@ filetree
 暂无
 
 <!-- links -->
-[your-project-path]:zk63265742/game-server
-[contributors-shield]: https://img.shields.io/github/contributors/zk63265742/game-server.svg?style=flat-square
-[contributors-url]: https://github.com/zk63265742/game-server/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/zk63265742/game-server.svg?style=flat-square
-[forks-url]: https://github.com/zk63265742/game-server/network/members
-[stars-shield]: https://img.shields.io/github/stars/zk63265742/game-server.svg?style=flat-square
-[stars-url]: https://github.com/zk63265742/game-server/stargazers
-[issues-shield]: https://img.shields.io/github/issues/zk63265742/game-server.svg?style=flat-square
-[issues-url]: https://img.shields.io/github/issues/zk63265742/game-server.svg
+[your-project-path]:langwudong/tcp-game-server
+[contributors-shield]: https://img.shields.io/github/contributors/langwudong/tcp-game-server.svg?style=flat-square
+[contributors-url]: https://github.com/langwudong/tcp-game-server/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/langwudong/tcp-game-server.svg?style=flat-square
+[forks-url]: https://github.com/langwudong/tcp-game-server/network/members
+[stars-shield]: https://img.shields.io/github/stars/langwudong/tcp-game-server.svg?style=flat-square
+[stars-url]: https://github.com/langwudong/tcp-game-server/stargazers
+[issues-shield]: https://img.shields.io/github/issues/langwudong/tcp-game-server.svg?style=flat-square
+[issues-url]: https://img.shields.io/github/issues/langwudong/tcp-game-server.svg
 [license-shield]: https://img.shields.io/github/license/shaojintian/Best_README_template.svg?style=flat-square
-[license-url]: https://github.com/zk63265742/game-server/blob/master/LICENSE.txt
+[license-url]: https://github.com/langwudong/tcp-game-server/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/zk63265742
+[linkedin-url]: https://linkedin.com/in/langwudong
