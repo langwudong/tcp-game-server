@@ -14,7 +14,7 @@ var (
 )
 
 const (
-	sqlUrl = "root:langwudong@tcp(8.130.53.210:3306)/users"
+	sqlUrl = "root:langwudong@tcp(127.0.0.1:3306)/users"
 )
 
 func InitDB() *sql.DB {
