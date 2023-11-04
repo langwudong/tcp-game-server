@@ -18,7 +18,7 @@
 
 <p align="center">
   <a href="https://github.com/langwudong/tcp-game-server/">
-    <img src="images/img.jpg" alt="img" width="120" height="120">
+    <img src="src/assets/logo.jpg" alt="img" width="120" height="120">
   </a>
 
   <h3 align="center">GO语言搭建多人游戏服务器</h3>
